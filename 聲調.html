@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<title>Tiếng Việt</title>
+		<meta charset="utf-8">
+		<meta name="author" content="陳祐德 Trần Hựu Đức">
+		<meta name="description" content="實用越語輕鬆學上冊發音學習輔助網頁">
+		<link rel="stylesheet" href="styles/style.css">
+		<script src="scripts/script.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<h1 lang="zh-Hant"><a href="首頁.html">實用越語輕鬆學</a></h1>
+		</header>
+		<div class="main">
+			<aside lang="zh-Hant">
+				<ul class="aside">
+					<li><a href="字母.html">字母</a></li>
+					<li><a href="母音.html">母音</a></li>
+					<li><a href="子音.html">子音</a></li>
+					<li><a href="聲調.html">聲調</a></li>
+					<li><a href="拼音練習.html">拼音練習</a></li>
+					<li><a href="前母音與韻尾.html">前母音與韻尾</a></li>
+					<li><a href="中母音與韻尾.html">中母音與韻尾</a></li>
+					<li><a href="後母音與韻尾.html">後母音與韻尾</a></li>
+					<li><a href="雙母音與韻尾.html">雙母音與韻尾</a></li>
+					<li><a href="介音與韻尾.html">介音與韻尾</a></li>
+				</ul>
+			</aside>
+			<main>
+				<h2 lang="zh-Hant">聲調</h2>
+				<table>
+					<thead>
+						<tr>
+							<th lang="zh-Hant" rowspan="2">平聲(1)</th>
+							<th lang="zh-Hant" colspan="2">銳聲(2)</th>
+							<th lang="zh-Hant" rowspan="2">問聲(3)</th>
+							<th lang="zh-Hant" rowspan="2">玄聲(4)</th>
+							<th lang="zh-Hant" colspan="2">重聲(5)</th>
+							<th lang="zh-Hant" rowspan="2">跌聲(6)</th>
+						</tr>
+						<tr>
+							<th lang="zh-Hant">一般音</th>
+							<th lang="zh-Hant">短促音</th>
+							<th lang="zh-Hant">一般音</th>
+							<th lang="zh-Hant">短促音</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="sound" data-id="05" data-start="2.85" data-length="670" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">a</td>
+							<td class="sound" data-id="05" data-start="5.26" data-length="690" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">á</td>
+							<td class="sound" data-id="05" data-start="7.13" data-length="410" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">áp</td>
+							<td class="sound" data-id="05" data-start="8.94" data-length="700" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">ả</td>
+							<td class="sound" data-id="05" data-start="10.86" data-length="790" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">à</td>
+							<td class="sound" data-id="05" data-start="12.86" data-length="330" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">ạ</td>
+							<td class="sound" data-id="05" data-start="14.67" data-length="340" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">ạp</td>
+							<td class="sound" data-id="05" data-start="16.60" data-length="670" onclick="PlaySound(this.getAttribute('data-id'), this.getAttribute('data-start'), this.getAttribute('data-length'))">ã</td>
+						</tr>
+					</tbody>
+				</table>
+				<audio id="05" preload="auto" src="audios/05.mp3"></audio>
+			</main>
+		</div>
+	</body>
+</html>
